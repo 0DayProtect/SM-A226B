@@ -2,7 +2,7 @@
   
 Download Mode:  
   
-Volume Down+ Power Button (from UI)  
+Volume Down + Power Button (from UI)  
 Tap Power Off (Device Turns off)  
 Plug in USB C (Heimdall)  
 (From Device off)  
