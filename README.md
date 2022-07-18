@@ -54,3 +54,6 @@ downloading SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip.enc4
   
 samloader -m SM-A226B -r XME decrypt -v A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7 -V 4 -i SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip.enc4 -o SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip  
   
+Will not allow oem unlock unless updated to backdoored system  
+  
+When OEM Unlock is selected boot into DOWNLOAD MODE then ENABLE OPEN UNLOCK  
