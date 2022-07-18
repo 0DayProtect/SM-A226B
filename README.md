@@ -27,3 +27,15 @@ Android Recovery
 samsung/a22xnsxx/a22x  
 11/RP1A.200720.012/A226BXXU4AVB1  
 user/release-keys  
+  
+https://github.com/samloader/samloader  
+    
+pip3 install git+https://github.com/samloader/samloader.git  
+  
+samloader -m SM-A226B -r BTU checkupdate  
+A226BXXS4AVF1/A226BOXM4AVB1/A226BXXS4AVD5/A226BXXS4AVF1  
+  
+samloader -m SM-A226B -r BTU download -v A226BXXS4AVF1/A226BOXM4AVB1/A226BXXS4AVD5/A226BXXS4AVF1 -O .  
+downloading SM-A226B_1_20220623170820_zx1mokpby6_fac.zip.enc4  
+  0%|                                      | 2.36M/5.39G [00:00<16:42, 5.38MB/s]  
+    
