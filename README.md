@@ -22,3 +22,8 @@ WARRANTY VOID: 0x0 (0x)
 AP SWREV: B4 NS4 K4 S4  
 SECURE DOWNLOAD: ENABLED  
 DID: 534e699bb489  
+
+Android Recovery  
+samsung/a22xnsxx/a22x  
+11/RP1A.200720.012/A226BXXU4AVB1  
+user/release-keys  
