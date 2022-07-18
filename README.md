@@ -32,10 +32,17 @@ https://github.com/samloader/samloader
     
 pip3 install git+https://github.com/samloader/samloader.git  
   
+# Android 11  
 samloader -m SM-A226B -r BTU checkupdate  
 A226BXXS4AVF1/A226BOXM4AVB1/A226BXXS4AVD5/A226BXXS4AVF1  
   
 samloader -m SM-A226B -r BTU download -v A226BXXS4AVF1/A226BOXM4AVB1/A226BXXS4AVD5/A226BXXS4AVF1 -O .  
 downloading SM-A226B_1_20220623170820_zx1mokpby6_fac.zip.enc4  
   0%|                                      | 2.36M/5.39G [00:00<16:42, 5.38MB/s]  
-    
+  
+# Android 12  
+samloader -m SM-A226B -r XME checkupdate  
+A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7  
+user@debian:~/Downloads/c$ samloader -m SM-A226B -r XME download -v A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7 -O .  
+downloading SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip.enc4  
+  
