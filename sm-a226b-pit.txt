@@ -1,0 +1,881 @@
+
+user:~$ heimdall print-pit --file sm-a226b.pit
+Heimdall v1.4.2
+
+Copyright (c) 2010-2017 Benjamin Dobell, Glass Echidna
+http://www.glassechidna.com.au/
+
+This software is provided free of charge. Copying and redistribution is
+encouraged.
+
+If you appreciate this software and you would like to support future
+development please consider donating:
+http://www.glassechidna.com.au/donate/
+
+Entry Count: 57
+Unknown 1: 1598902083
+Unknown 2: 844251476
+Unknown 3: 21581
+Unknown 4: 14390
+Unknown 5: 13107
+Unknown 6: 0
+Unknown 7: 0
+Unknown 8: 0
+
+
+--- Entry #0 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 80
+Attributes: 2 (STL Read-Only)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 0
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: bootloader
+Flash Filename: preloader.img
+FOTA Filename: 
+
+
+--- Entry #1 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 70
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 0
+Partition Block Count: 48
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: pgpt
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #2 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 71
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 48
+Partition Block Count: 32
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: pit
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #3 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 1
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 80
+Partition Block Count: 8112
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: md5hdr
+Flash Filename: md5.img
+FOTA Filename: 
+
+
+--- Entry #4 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 2
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 8192
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: efs
+Flash Filename: efs.img
+FOTA Filename: 
+
+
+--- Entry #5 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 3
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 24576
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: sec_efs
+Flash Filename: sec_efs.img
+FOTA Filename: 
+
+
+--- Entry #6 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 4
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 40960
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: steady
+Flash Filename: steady.bin
+FOTA Filename: 
+
+
+--- Entry #7 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 5
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 49152
+Partition Block Count: 131072
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: nvdata
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #8 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 6
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 180224
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: protect1
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #9 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 7
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 196608
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: protect2
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #10 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 8
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 212992
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: seccfg
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #11 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 9
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 229376
+Partition Block Count: 131072
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: nvram
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #12 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 10
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 360448
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: spmfw
+Flash Filename: spmfw-verified.img
+FOTA Filename: 
+
+
+--- Entry #13 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 11
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 362496
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: scp1
+Flash Filename: scp-verified.img
+FOTA Filename: 
+
+
+--- Entry #14 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 12
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 364544
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: sspm_1
+Flash Filename: sspm-verified.img
+FOTA Filename: 
+
+
+--- Entry #15 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 13
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 366592
+Partition Block Count: 4096
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: uh
+Flash Filename: uh.bin
+FOTA Filename: 
+
+
+--- Entry #16 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 14
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 370688
+Partition Block Count: 4096
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: tee1
+Flash Filename: tee-verified.img
+FOTA Filename: 
+
+
+--- Entry #17 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 15
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 374784
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: tzar
+Flash Filename: tzar.img
+FOTA Filename: 
+
+
+--- Entry #18 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 16
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 382976
+Partition Block Count: 32768
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: gz1
+Flash Filename: gz-verified.img
+FOTA Filename: 
+
+
+--- Entry #19 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 17
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 415744
+Partition Block Count: 4096
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: lk
+Flash Filename: lk-verified.img
+FOTA Filename: 
+
+
+--- Entry #20 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 18
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 419840
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: dpm_1
+Flash Filename: dpm-verified.img
+FOTA Filename: 
+
+
+--- Entry #21 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 19
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 421888
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: mcupm_1
+Flash Filename: mcupm-verified.img
+FOTA Filename: 
+
+
+--- Entry #22 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 20
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 423936
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: dtbo
+Flash Filename: dtbo.img
+FOTA Filename: 
+
+
+--- Entry #23 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 21
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 440320
+Partition Block Count: 128
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: vbmeta
+Flash Filename: vbmeta.img
+FOTA Filename: 
+
+
+--- Entry #24 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 22
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 440448
+Partition Block Count: 1920
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: btd
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #25 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 23
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 442368
+Partition Block Count: 65536
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: nvcfg
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #26 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 24
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 507904
+Partition Block Count: 98304
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: persist
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #27 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 25
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 606208
+Partition Block Count: 106496
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: bota
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #28 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 26
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 712704
+Partition Block Count: 53248
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: boot_para
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #29 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 27
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 765952
+Partition Block Count: 1024
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: para
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #30 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 28
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 766976
+Partition Block Count: 1024
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: misc
+Flash Filename: misc.bin
+FOTA Filename: 
+
+
+--- Entry #31 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 29
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 768000
+Partition Block Count: 81920
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: expdb
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #32 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 30
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 849920
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: frp
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #33 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 31
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 851968
+Partition Block Count: 65536
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: metadata
+Flash Filename: metadata.img
+FOTA Filename: 
+
+
+--- Entry #34 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 32
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 917504
+Partition Block Count: 32768
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: keyrefuge
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #35 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 33
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 950272
+Partition Block Count: 32768
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: keydata
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #36 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 34
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 983040
+Partition Block Count: 1024
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: persistent
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #37 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 35
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 984064
+Partition Block Count: 6144
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: proinfo
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #38 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 36
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 990208
+Partition Block Count: 409600
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: md1img
+Flash Filename: md1img.img
+FOTA Filename: 
+
+
+--- Entry #39 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 37
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1399808
+Partition Block Count: 2048
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: pi_img
+Flash Filename: pi_img-verified.img
+FOTA Filename: 
+
+
+--- Entry #40 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 38
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1401856
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: logo
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #41 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 39
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1418240
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: param
+Flash Filename: param.bin
+FOTA Filename: 
+
+
+--- Entry #42 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 40
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1426432
+Partition Block Count: 8192
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: up_param
+Flash Filename: up_param.bin
+FOTA Filename: 
+
+
+--- Entry #43 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 41
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1434624
+Partition Block Count: 65536
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: boot
+Flash Filename: boot.img
+FOTA Filename: 
+
+
+--- Entry #44 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 42
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1500160
+Partition Block Count: 81920
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: recovery
+Flash Filename: recovery.img
+FOTA Filename: 
+
+
+--- Entry #45 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 43
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1582080
+Partition Block Count: 128
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: vbmeta_system
+Flash Filename: vbmeta_system.img
+FOTA Filename: 
+
+
+--- Entry #46 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 44
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1582208
+Partition Block Count: 128
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: vbmeta_vendor
+Flash Filename: vbmeta_vendor.img
+FOTA Filename: 
+
+
+--- Entry #47 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 45
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1582336
+Partition Block Count: 1024
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: efuse
+Flash Filename: efuse.img
+FOTA Filename: 
+
+
+--- Entry #48 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 46
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1583360
+Partition Block Count: 5888
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: rsv1
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #49 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 47
+Attributes: 5 (Read/Write)
+Update Attributes: 1 (FOTA)
+Partition Block Size/Offset: 1589248
+Partition Block Count: 16384
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: sec1
+Flash Filename: 
+FOTA Filename: 
+
+
+--- Entry #50 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 48
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 1605632
+Partition Block Count: 14139392
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: super
+Flash Filename: super.img
+FOTA Filename: 
+
+
+--- Entry #51 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 49
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 15745024
+Partition Block Count: 1441792
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: prism
+Flash Filename: prism.img
+FOTA Filename: 
+
+
+--- Entry #52 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 50
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 17186816
+Partition Block Count: 49152
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: optics
+Flash Filename: optics.img
+FOTA Filename: 
+
+
+--- Entry #53 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 51
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 17235968
+Partition Block Count: 409600
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: cache
+Flash Filename: cache.img
+FOTA Filename: 
+
+
+--- Entry #54 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 52
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 17645568
+Partition Block Count: 102400
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: omr
+Flash Filename: omr.img
+FOTA Filename: 
+
+
+--- Entry #55 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 53
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 17747968
+Partition Block Count: 102400
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: spu
+Flash Filename: spu.img
+FOTA Filename: 
+
+
+--- Entry #56 ---
+Binary Type: 0 (AP)
+Device Type: 2 (MMC)
+Identifier: 54
+Attributes: 5 (Read/Write)
+Update Attributes: 5 (FOTA)
+Partition Block Size/Offset: 17850368
+Partition Block Count: 0
+File Offset (Obsolete): 0
+File Size (Obsolete): 0
+Partition Name: userdata
+Flash Filename: userdata.img
+FOTA Filename: remained
+
+user@debian:~$ 
+
