@@ -1,6 +1,7 @@
 # Samsung A22 5G
   
 Download Mode:  
+  
 Volume Down+ Power Button (from UI)  
 Tap Power Off (Device Turns off)  
 Plug in USB C (Heimdall)  
