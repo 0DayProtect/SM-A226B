@@ -43,6 +43,8 @@ downloading SM-A226B_1_20220623170820_zx1mokpby6_fac.zip.enc4
 # Android 12  
 samloader -m SM-A226B -r XME checkupdate  
 A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7  
-user@debian:~/Downloads/c$ samloader -m SM-A226B -r XME download -v A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7 -O .  
+  
+samloader -m SM-A226B -r XME download -v A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7 -O .  
 downloading SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip.enc4  
+  7%|██▊                                    | 410M/5.73G [01:10<14:20, 6.18MB/s]  
   
