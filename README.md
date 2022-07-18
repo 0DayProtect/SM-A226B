@@ -1,7 +1,15 @@
 # Samsung A22 5G
-
-Arrived factory sealed never connected to internet only enabled developer mode
-
+  
+Download Mode:  
+Volume Down+ Power Button (from UI)  
+Tap Power Off (Device Turns off)  
+Plug in USB C (Heimdall)  
+(From Device off)  
+Voume Down + Volume Up (Until Download Mode)  
+  
+  
+Arrived factory sealed never connected to internet only enabled developer mode  
+  
 PRODUCT NAME: SM-A226B  
 CURRENT BINARY: Samsung Offical  
 FAP LOCK :OFF  
