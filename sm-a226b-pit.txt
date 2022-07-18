@@ -876,6 +876,3 @@ File Size (Obsolete): 0
 Partition Name: userdata
 Flash Filename: userdata.img
 FOTA Filename: remained
-
-user@debian:~$ 
-
