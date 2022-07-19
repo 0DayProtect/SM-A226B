@@ -28,32 +28,26 @@ samsung/a22xnsxx/a22x
 11/RP1A.200720.012/A226BXXU4AVB1  
 user/release-keys  
   
-https://github.com/samloader/samloader  
-    
-pip3 install git+https://github.com/samloader/samloader.git  
-  
-Android 11  
-  
-samloader -m SM-A226B -r BTU checkupdate  
-A226BXXS4AVF1/A226BOXM4AVB1/A226BXXS4AVD5/A226BXXS4AVF1  
-  
-samloader -m SM-A226B -r BTU download -v A226BXXS4AVF1/A226BOXM4AVB1/A226BXXS4AVD5/A226BXXS4AVF1 -O .  
-downloading SM-A226B_1_20220623170820_zx1mokpby6_fac.zip.enc4  
-  0%|                                      | 2.36M/5.39G [00:00<16:42, 5.38MB/s]  
-  
-samloader -m SM-A226B -r BTU decrypt -v A226BXXS4AVF1/A226BOXM4AVB1/A226BXXS4AVD5/A226BXXS4AVF1 -V 4 -i SM-A226B_1_20220623170820_zx1mokpby6_fac.zip.enc4 -o SM-A226B_1_20220623170820_zx1mokpby6_fac.zip  
-  
-Android 12  
-  
-samloader -m SM-A226B -r XME checkupdate  
-A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7  
-  
-samloader -m SM-A226B -r XME download -v A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7 -O .  
-downloading SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip.enc4  
-  7%|██▊                                    | 410M/5.73G [01:10<14:20, 6.18MB/s]  
-  
-samloader -m SM-A226B -r XME decrypt -v A226BXXU4BVF7/A226BOLM4BVF7/A226BXXU4BVF7/A226BXXU4BVF7 -V 4 -i SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip.enc4 -o SM-A226B_1_20220629125540_7ass3zxpbt_fac.zip  
-  
-Will not allow oem unlock unless updated to backdoored system  
-  
-When OEM Unlock is selected boot into DOWNLOAD MODE then ENABLE OPEN UNLOCK  
+Disable FRP MDM EDL
+Use scatter firmware to wipe clean
+
+Samsung Galaxy A22 5G  Scatter Firmware Info:
+Device Name: Samsung SM-A22 5G A226B 
+Type: Full ROM
+Size: up to 2.35GB
+SoC: MediaTek MT6833 Dimensity 700
+Os: Android 11
+Password: Mobilecare83
+Android Version: A226BXXU3AUL1_ODM3AUL1
+
+Install VCOM Driver
+SP Flash tool
+Firmware Samsung SM-A226B Scatter
+
+All fake cloned malware distributing android firmware download sites
+Persistant connections and botnets are in firmware level you cannot remove
+They are OTA firmware compliant with manufacture updates upon first connection. 
+Two new factory sealed phones taken and reboot upon first hitting a network.
+Cellular basestations stingray devices and quarterly security updates
+Telecoms, ISPs, Manufacturers, 50 + filesystems found in 2 ebay purchased
+factory sealed Samsung SM-A226B Mobile Phones
