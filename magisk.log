@@ -1,0 +1,41 @@
+07-31 02:46:26.334   785   785 I : Magisk 25.2(25200) daemon started
+07-31 02:46:26.334   785   785 I : * Device API level: 31
+07-31 02:46:26.354   785   787 I : ** post-fs-data mode running
+07-31 02:46:26.356   785   787 E : unlock mmcblk0p16 failed with 13: Permission denied
+07-31 02:46:26.369   785   787 E : unlock mmcblk0p8 failed with 13: Permission denied
+07-31 02:46:26.370   785   787 E : unlock mmcblk0p13 failed with 13: Permission denied
+07-31 02:46:26.374   785   787 E : unlock mmcblk0p15 failed with 13: Permission denied
+07-31 02:46:26.376   785   787 E : unlock mmcblk0p10 failed with 13: Permission denied
+07-31 02:46:26.376   785   787 E : unlock mmcblk0boot0 failed with 13: Permission denied
+07-31 02:46:26.377   785   787 E : unlock mmcblk0p19 failed with 13: Permission denied
+07-31 02:46:26.379   785   787 E : unlock mmcblk0p47 failed with 13: Permission denied
+07-31 02:46:26.380   785   787 E : unlock mmcblk0p22 failed with 13: Permission denied
+07-31 02:46:26.380   785   787 E : unlock mmcblk0p9 failed with 13: Permission denied
+07-31 02:46:26.382   785   787 E : unlock mmcblk0p20 failed with 13: Permission denied
+07-31 02:46:26.392   785   787 E : unlock mmcblk0 failed with 13: Permission denied
+07-31 02:46:26.393   785   787 E : unlock mmcblk0p18 failed with 13: Permission denied
+07-31 02:46:26.395   785   787 E : unlock mmcblk0p11 failed with 13: Permission denied
+07-31 02:46:26.398   785   787 E : unlock mmcblk0p12 failed with 13: Permission denied
+07-31 02:46:26.404   785   787 E : unlock mmcblk0p14 failed with 13: Permission denied
+07-31 02:46:26.408   785   787 E : unlock mmcblk0p21 failed with 13: Permission denied
+07-31 02:46:26.411   785   787 E : unlock mmcblk0p17 failed with 13: Permission denied
+07-31 02:46:26.412   785   787 I : * Mounting mirrors
+07-31 02:46:26.412   785   787 I : link: /dev/SyEj8Ir/.magisk/mirror/metadata
+07-31 02:46:26.412   785   787 I : mount: /dev/SyEj8Ir/.magisk/mirror/vendor
+07-31 02:46:26.412   785   787 I : mount: /dev/SyEj8Ir/.magisk/mirror/product
+07-31 02:46:26.412   785   787 I : link: /dev/SyEj8Ir/.magisk/mirror/cache
+07-31 02:46:26.412   785   787 I : link: /dev/SyEj8Ir/.magisk/mirror/persist
+07-31 02:46:26.412   785   787 I : mount: /dev/SyEj8Ir/.magisk/mirror/data
+07-31 02:46:26.413   785   787 I : link: /dev/SyEj8Ir/.magisk/mirror/system
+07-31 02:46:26.413   785   787 I : mount: /dev/SyEj8Ir/.magisk/mirror/system_root
+07-31 02:46:26.414   785   787 I : link: /dev/SyEj8Ir/.magisk/mirror/system_ext
+07-31 02:46:26.465   785   787 I : * Initializing Magisk environment
+07-31 02:46:26.481   785   787 I : * Running post-fs-data.d scripts
+07-31 02:46:26.483   790   790 I : post-fs-data.d: exec [0000liveboot]
+07-31 02:46:26.486   785   787 I : * Running module post-fs-data scripts
+07-31 02:46:26.487   785   787 I : * Loading modules
+07-31 03:46:28.375   785   787 I : ** late_start service mode running
+07-31 03:46:28.375   785   787 I : * Running service.d scripts
+07-31 03:46:28.381   785   787 I : service.d: exec [0000liveboot]
+07-31 03:46:28.383   785   787 I : * Running module service scripts
+07-31 03:46:48.925   785   787 I : ** boot-complete triggered
