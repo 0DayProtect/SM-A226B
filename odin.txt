@@ -1,0 +1,116 @@
+https://forum.xda-developers.com/t/official-samsung-odin-v4-1-2-1-dc05e3ea-for-linux.4453423/
+
+Usage : odin4 [args...]
+Odin4 downloader. odin4 version 1.2.1-dc05e3ea
+ -v        SHOW VERSION
+ -w        Show License
+ -b        Add Bootloader file
+ -a        Add AP image file
+ -c        Add CP image file
+ -s        Add CSC file
+ -u        Add UMS file
+ -e        Set Nand erase option
+ -V        Home binary validation check with pit file
+ --reboot  Reboot into normal mode
+ --redownload   Reboot into download mode if it possible (not working in normal case)
+ -d        Set a device path (detect automatically without this option)
+ -l        Show downloadable devices path
+
+IMPORTANT : You must set up your system to detect your device on LINUX host.
+ create this file: /etc/udev/rules.d/51-android.rules
+ to add a line to the file:
+ SUBSYSTEM=="usb", ATTR{idVendor}=="04e8", MODE="0666", GROUP="plugdev"
+   (http://developer.android.com/tools/device.html)
+ And you maybe need to unload a module cdc_acm before downloading. (This is only needed for older kernels.)
+   $sudo rmmod cdc_acm
+ OR
+   echo "blacklist cdc_acm" > /etc/modprobe.d/cdc_acm-blacklist.conf
+
+Example :
+$odin4 -b BL_XXXX.tar.md5 -a AP_XXXX.tar.md5 -c CP_XXXX.tar.md5 -s CSC_XXXX.tar.md5
+Example (Select One Device):
+$odin4 -l
+PATH_OF_DEVICE_A
+PATH_OF_DEVICE_B
+$odin4 -b BL_XXXX.tar.md5 -a AP_XXXX.tar.md5 -c CP_XXXX.tar.md5 -s CSC_XXXX.tar.md5 -d PATH_OF_DEVICE_A
+
+Odin Community : http://mobilerndhub.sec.samsung.net/hub/site/odin/
+
+ So I've been making an unscheduled and unexpected move from Windows 7 to Ubuntu 14. In that process I've had to find new tools to do certain things. For example, recovering back to stock on a Samsung device or rerooting one. I have found a simple and quick way to do this right from a terminal in Ubuntu.
+
+****I DID NOT CREATE THIS TOOL. I TAKE NO CREDIT FOR THIS****
+
+I have only tested this on the Galaxy S4, but it will likely work for many other Samsung devices. You can thank @trevd for creating this. I'm not sure he expected it to really be useful. This short guide only covers recovering back to stock firmware. If demand is high enough, I'll post another guide on re-rooting and flashing custom recovery.
+
+Odin for Linux
+
+REQUIREMENTS:
+-Download Odin for linux
+-A Linux machine. I used Ubuntu desktop 14.
+-A Samsung device, in this case a Galaxy S4
+-Firmware package for your device
+
+INSTRUCTIONS:
+1. Locate and download the firmware package for your device. Look on 'sammobile' for example.
+
+2. Extract the contents of the Odin package above to a folder in your home directory. Just name it 'odin'.
+
+3. Extract the firmware package into the Odin folder you just made. There will be at least 4 files in the firmware package. It doesn't matter if there are more. We only care about 4 of those files.
+
+4. You just want these 4 files: BL, AP, CP AND CSC (just CSC is fine. Delete the one with home in the title. If there isn't another CSC file, then keep it). Delete all others.
+
+5. (This step is optional if you aren't 100% sure the firmware you are flashing is 100% stock. But be warned, this method isn't likely to work.) Remove the .md5 extension from each of the 4 files. Right click each one, select rename and simply remove the .md5 and save them.
+
+6. Open a terminal and navigate to your Odin folder. If you created it in home, type:
+Code:
+
+cd odin
+ls
+
+
+7. You will see a list of files scroll on the screen. If you see 'odin4', type
+Code:
+
+sudo chmod a+x odin4
+
+
+8. Get your Samsung device and power it off. Boot to download mode by holding down: volume down, home and power. When the warning come up, press volume up to go into download. You should see a Droid with some info at the top left of the screen.
+
+9. Plug your phone into your PC. Open a terminal and navigate to the Odin folder (if you closed the other terminal window). Type the following below. This must all be done in one step only hit enter when all files are added. The X's represent the rest of that file name. Replace them accordingly with the WHOLE name, leaving the BL or AP etc in front).
+Code:
+
+./odin4 -b BL.XXX.XXX -a AP.XXX.XXX -c CP.XXX.XXX -s CSC.XXX.XXX --no-reboot
+
+
+If all goes well, you shouldn't see any errors. The device should NOT reboot. If you do see errors, go back and readd the .md5 to each file and try again. If it still doesn't work, you have the wrong firmware or something else is wrong. Google is now your friend.
+
+10. If successful, and no errors appear, you will see the shell command prompt reappear in the terminal. Unplug your device, and power it off by holding down the power button for at least 30 seconds AFTER the screen turns off.
+
+11. Reboot to recovery by holding down: volume up, home and power. When you see the blue text on the screen, release the buttons. Android's stock recovery should come up. Using volume down, select the option to perform a factory reset. When done, wipe the cache then reboot normally. You should be on fresh stock. 
+
+
+
+
+Download firmware for Samsung devices (without any extra Windows drivers).
+Installation
+
+pip3 install git+https://github.com/samloader/samloader.git
+
+Usage
+
+Run with samloader or python3 -m samloader. See samloader --help and samloader (command) --help for help.
+
+-m <model> -r <region> checkupdate: Check the latest firmware version
+
+-m <model> -r <region> download -v <version> (-O <output-dir> or -o <output-file>): Download the specified firmware version for a given phone and region to a specified file or directory
+
+-m <model> -r <region> decrypt -v <version> -V <enc-version> -i <input-file> -o <output-file>: Decrypt encrypted firmware
+Example
+
+$ samloader -m GT-I8190N -r BTU checkupdate
+I8190NXXAMJ2/I8190NBTUAMJ1/I8190NXXAMJ2/I8190NXXAMJ2
+$ samloader -m GT-I8190N -r BTU download -v I8190NXXAMJ2/I8190NBTUAMJ1/I8190NXXAMJ2/I8190NXXAMJ2 -O .
+downloading GT-I8190N_BTU_1_20131118100230_9ae3yzkqmu_fac.zip.enc2
+[################################] 10570/10570 - 00:02:02
+$ samloader -m GT-I8190N -r BTU decrypt -v I8190NXXAMJ2/I8190NBTUAMJ1/I8190NXXAMJ2/I8190NXXAMJ2 -V 2 -i GT-I8190N_BTU_1_20131118100230_9ae3yzkqmu_fac.zip.enc2 -o GT-I8190N_BTU_1_20131118100230_9ae3yzkqmu_fac.zip
+[################################] 169115/169115 - 00:00:08
